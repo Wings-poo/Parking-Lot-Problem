@@ -8,5 +8,8 @@ Solution is uploaded as solution.cpp
 Given sample input and output are also uploaded  
 To run the code:  
 $ g++ solution.cpp -W -Wall  
+If running with an input file:  
 $ ./a.out < sample_input.txt > output.txt  
 $ diff output.txt sample_output.txt -Z  
+Otherwise, for interactive I/O:  
+$ ./a.out
